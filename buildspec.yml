@@ -11,6 +11,6 @@ phases:
     commands:
       - echo "Post Build phase"
       - mv target/*.war ./ROOT.war
-  artifacts:
-    files:
-      - ./ROOT.war
+artifacts:
+  files:
+    - ./ROOT.war
