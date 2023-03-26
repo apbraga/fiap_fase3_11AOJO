@@ -1,0 +1,6 @@
+server:
+  port: 80
+
+
+build.name: abctechapi
+build.version: 0.0.1-SNAPSHOT

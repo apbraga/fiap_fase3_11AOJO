@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: apb
+Build-Jdk: Amazon Corretto version 11.0.18
+Implementation-Title: abctechapi
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: br.com.fiap
+Main-Class: ${start-class}
+
