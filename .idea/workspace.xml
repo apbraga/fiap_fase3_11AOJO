@@ -9,16 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3eb4ed3-cc95-49d5-8f6a-db0d35b64df9" name="Changes" comment="Aula 2 - Adicionar depêndencias e conectar banco MySQL">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/entity/Assistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/repository/AssistanceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/service/AssistanceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/service/impl/AssistanceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/fiap/abctechapi/service/AsisstanceServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.yml" afterDir="false" />
+    <list default="true" id="e3eb4ed3-cc95-49d5-8f6a-db0d35b64df9" name="Changes" comment="Aula 2 - Adicionar primeiro test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/controller/AssistanceController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/service/impl/AssistanceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/service/impl/AssistanceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/fiap/abctechapi/service/AsisstanceServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/fiap/abctechapi/service/AsisstanceServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +91,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.AsisstanceServiceTest">
+  <component name="RunManager" selected="Spring Boot.AbctechapiApplication">
     <configuration name="All in abctechapi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="abctechapi" />
       <option name="PACKAGE_NAME" value="" />
@@ -169,7 +164,7 @@
       <workItem from="1680211465106" duration="40000" />
       <workItem from="1680211544753" duration="68000" />
       <workItem from="1680741535592" duration="1361000" />
-      <workItem from="1680803653316" duration="6840000" />
+      <workItem from="1680803653316" duration="9138000" />
     </task>
     <task id="LOCAL-00001" summary="Aula 1 - Inicialização do Projeto">
       <created>1679797322526</created>
@@ -220,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680807941874</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Aula 2 - Adicionar primeiro test">
+      <created>1680810547972</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680810547972</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +246,8 @@
     <MESSAGE value="Aula 1 - Corrigir typo no pipeline" />
     <MESSAGE value="Aula 1 - Criar Classe VersionComponent" />
     <MESSAGE value="Aula 2 - Adicionar depêndencias e conectar banco MySQL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula 2 - Adicionar depêndencias e conectar banco MySQL" />
+    <MESSAGE value="Aula 2 - Adicionar primeiro test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula 2 - Adicionar primeiro test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
