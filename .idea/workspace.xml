@@ -9,12 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3eb4ed3-cc95-49d5-8f6a-db0d35b64df9" name="Changes" comment="Aula 1 - Criar Classe VersionComponent">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="e3eb4ed3-cc95-49d5-8f6a-db0d35b64df9" name="Changes" comment="Aula 2 - Adicionar depêndencias e conectar banco MySQL">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/entity/Assistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/repository/AssistanceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/service/AssistanceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/service/impl/AssistanceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/fiap/abctechapi/service/AsisstanceServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -92,11 +96,26 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.AbctechapiApplication">
+  <component name="RunManager" selected="JUnit.AsisstanceServiceTest">
     <configuration name="All in abctechapi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="abctechapi" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AsisstanceServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="abctechapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.fiap.abctechapi.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.fiap.abctechapi.service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.fiap.abctechapi.service.AsisstanceServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,11 +145,13 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.AsisstanceServiceTest" />
       <item itemvalue="JUnit.All in abctechapi" />
       <item itemvalue="Spring Boot.AbctechapiApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AsisstanceServiceTest" />
         <item itemvalue="JUnit.All in abctechapi" />
       </list>
     </recent_temporary>
@@ -148,7 +169,7 @@
       <workItem from="1680211465106" duration="40000" />
       <workItem from="1680211544753" duration="68000" />
       <workItem from="1680741535592" duration="1361000" />
-      <workItem from="1680803653316" duration="4207000" />
+      <workItem from="1680803653316" duration="6840000" />
     </task>
     <task id="LOCAL-00001" summary="Aula 1 - Inicialização do Projeto">
       <created>1679797322526</created>
@@ -192,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679802593337</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Aula 2 - Adicionar depêndencias e conectar banco MySQL">
+      <created>1680807941874</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680807941874</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +243,8 @@
     <MESSAGE value="Aula 1 - Preparar pipeline para AWS" />
     <MESSAGE value="Aula 1 - Corrigir typo no pipeline" />
     <MESSAGE value="Aula 1 - Criar Classe VersionComponent" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula 1 - Criar Classe VersionComponent" />
+    <MESSAGE value="Aula 2 - Adicionar depêndencias e conectar banco MySQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula 2 - Adicionar depêndencias e conectar banco MySQL" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
