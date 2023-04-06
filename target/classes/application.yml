@@ -3,4 +3,15 @@ server:
 
 
 build.name: abctechapi
-build.version: 0.0.1-SNAPSHOT
+build.version: 0.0.2-SNAPSHOT
+spring:
+  datasource:
+    password: ${DB_PASSWORD}
+    username: ${DB_USER}
+    url: jdbc:mysql://${DB_HOSTNAME}:${DB_PORT}/${DB_NAME}
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+  
