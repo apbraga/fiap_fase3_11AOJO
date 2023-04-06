@@ -9,11 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3eb4ed3-cc95-49d5-8f6a-db0d35b64df9" name="Changes" comment="Aula 2 - Adicionar primeiro test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/controller/AssistanceController.java" afterDir="false" />
+    <list default="true" id="e3eb4ed3-cc95-49d5-8f6a-db0d35b64df9" name="Changes" comment="Aula 2 - Adicionar endpoint /assists retornando dados do banco">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/application/AssistanceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/application/dto/AssistDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/application/impl/AssistanceApplicationImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/service/impl/AssistanceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/service/impl/AssistanceServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/fiap/abctechapi/service/AsisstanceServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/fiap/abctechapi/service/AsisstanceServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/controller/AssistanceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/controller/AssistanceController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +165,7 @@
       <workItem from="1680211465106" duration="40000" />
       <workItem from="1680211544753" duration="68000" />
       <workItem from="1680741535592" duration="1361000" />
-      <workItem from="1680803653316" duration="9138000" />
+      <workItem from="1680803653316" duration="10875000" />
     </task>
     <task id="LOCAL-00001" summary="Aula 1 - Inicialização do Projeto">
       <created>1679797322526</created>
@@ -222,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680810547972</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Aula 2 - Adicionar endpoint /assists retornando dados do banco">
+      <created>1680815476270</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680815476270</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +255,8 @@
     <MESSAGE value="Aula 1 - Criar Classe VersionComponent" />
     <MESSAGE value="Aula 2 - Adicionar depêndencias e conectar banco MySQL" />
     <MESSAGE value="Aula 2 - Adicionar primeiro test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula 2 - Adicionar primeiro test" />
+    <MESSAGE value="Aula 2 - Adicionar endpoint /assists retornando dados do banco" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula 2 - Adicionar endpoint /assists retornando dados do banco" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
