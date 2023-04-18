@@ -9,12 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3eb4ed3-cc95-49d5-8f6a-db0d35b64df9" name="Changes" comment="Aula 2 - Adicionar endpoint /assists retornando dados do banco">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/application/AssistanceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/application/dto/AssistDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/application/impl/AssistanceApplicationImpl.java" afterDir="false" />
+    <list default="true" id="e3eb4ed3-cc95-49d5-8f6a-db0d35b64df9" name="Changes" comment="Aula 2 - Adicionar camada de application e DTO">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/application/dto/OrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/application/dto/OrderLocationDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/controller/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/controller/AssistanceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/controller/AssistanceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,34 +64,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/apb/Library/Mobile Documents/com~apple~CloudDocs/Cursos/FIAP - MBA ESW/03 - Fase 03/Solution Sprint/abctechapi",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "spring.configuration.checksum": "c06792dcb43ead2205eaef90c8fadc49",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/apb/Library/Mobile Documents/com~apple~CloudDocs/Cursos/FIAP - MBA ESW/03 - Fase 03/Solution Sprint/abctechapi&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;c06792dcb43ead2205eaef90c8fadc49&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.fiap.abctechapi.application.dto" />
+    </key>
+  </component>
   <component name="RunManager" selected="Spring Boot.AbctechapiApplication">
     <configuration name="All in abctechapi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="abctechapi" />
@@ -165,7 +170,8 @@
       <workItem from="1680211465106" duration="40000" />
       <workItem from="1680211544753" duration="68000" />
       <workItem from="1680741535592" duration="1361000" />
-      <workItem from="1680803653316" duration="10875000" />
+      <workItem from="1680803653316" duration="12136000" />
+      <workItem from="1681785318978" duration="1541000" />
     </task>
     <task id="LOCAL-00001" summary="Aula 1 - Inicialização do Projeto">
       <created>1679797322526</created>
@@ -230,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680815476270</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Aula 2 - Adicionar camada de application e DTO">
+      <created>1680817139398</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680817139398</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +269,8 @@
     <MESSAGE value="Aula 2 - Adicionar depêndencias e conectar banco MySQL" />
     <MESSAGE value="Aula 2 - Adicionar primeiro test" />
     <MESSAGE value="Aula 2 - Adicionar endpoint /assists retornando dados do banco" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula 2 - Adicionar endpoint /assists retornando dados do banco" />
+    <MESSAGE value="Aula 2 - Adicionar camada de application e DTO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula 2 - Adicionar camada de application e DTO" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
