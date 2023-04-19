@@ -9,12 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3eb4ed3-cc95-49d5-8f6a-db0d35b64df9" name="Changes" comment="Aula 2 - Adicionar camada de application e DTO">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/application/dto/OrderDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/application/dto/OrderLocationDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/controller/OrderController.java" afterDir="false" />
+    <list default="true" id="e3eb4ed3-cc95-49d5-8f6a-db0d35b64df9" name="Changes" comment="Aula 3 - Order DTO + Validations">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/application/OrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/application/impl/OrderApplicationImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/entity/OrderLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +95,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.fiap.abctechapi.entity" />
       <recent name="br.com.fiap.abctechapi.application.dto" />
     </key>
   </component>
@@ -171,7 +173,7 @@
       <workItem from="1680211544753" duration="68000" />
       <workItem from="1680741535592" duration="1361000" />
       <workItem from="1680803653316" duration="12136000" />
-      <workItem from="1681785318978" duration="1541000" />
+      <workItem from="1681785318978" duration="3274000" />
     </task>
     <task id="LOCAL-00001" summary="Aula 1 - Inicialização do Projeto">
       <created>1679797322526</created>
@@ -243,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680817139398</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Aula 3 - Order DTO + Validations">
+      <created>1681786935238</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681786935238</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +279,8 @@
     <MESSAGE value="Aula 2 - Adicionar primeiro test" />
     <MESSAGE value="Aula 2 - Adicionar endpoint /assists retornando dados do banco" />
     <MESSAGE value="Aula 2 - Adicionar camada de application e DTO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula 2 - Adicionar camada de application e DTO" />
+    <MESSAGE value="Aula 3 - Order DTO + Validations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula 3 - Order DTO + Validations" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
