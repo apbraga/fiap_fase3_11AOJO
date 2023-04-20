@@ -2,24 +2,33 @@ package br.com.fiap.abctechapi.entity;
 
 
 import jdk.jfr.Relational;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.lang.reflect.Array;
 import java.util.List;
 
 @Entity
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Table(name = "orders")
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(name = "operator_id", nullable = false)
     private Long operatorId;
-    @OneToMany
+
+    @ManyToMany
     private List<Assistance> assistances;
-    @OneToOne
-    @JoinColumn(name = "start_order_location_id",foreignKey = @ForeignKey(name = "fk_start_order_id"))
+    @OneToOne(cascade = CascadeType.PERSIST)
+    @JoinColumn(name = "start_order_location_id",foreignKey = @ForeignKey(name = "FK_start_order_id"))
     private OrderLocation startOrderLocation;
-    @OneToOne
-    @JoinColumn(name = "end_order_location_id",foreignKey = @ForeignKey(name = "fk_end_order_id"))
+    @OneToOne(cascade = CascadeType.PERSIST)
+    @JoinColumn(name = "end_order_location_id",foreignKey = @ForeignKey(name = "FK_end_order_id"))
     private OrderLocation endOrderLocation;
 
 }
