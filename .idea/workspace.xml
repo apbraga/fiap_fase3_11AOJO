@@ -9,23 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3eb4ed3-cc95-49d5-8f6a-db0d35b64df9" name="Changes" comment="Aula 3 - Order Service + Application">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/handler/ControllerExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/handler/ErrorMessageResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/handler/exception/MaximumAssistException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/handler/exception/MinimumAssistRequiredException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__assists.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2__orders.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/fiap/abctechapi/service/OrderServiceTest.java" afterDir="false" />
+    <list default="true" id="e3eb4ed3-cc95-49d5-8f6a-db0d35b64df9" name="Changes" comment="Aula 3 - Setup flyway">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/application/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/application/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/application/impl/OrderApplicationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/application/impl/OrderApplicationImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +209,7 @@
       <workItem from="1680803653316" duration="12136000" />
       <workItem from="1681785318978" duration="3274000" />
       <workItem from="1681907380936" duration="5274000" />
-      <workItem from="1681949588217" duration="12406000" />
+      <workItem from="1681949588217" duration="13786000" />
     </task>
     <task id="LOCAL-00001" summary="Aula 1 - Inicialização do Projeto">
       <created>1679797322526</created>
@@ -316,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681952825619</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Aula 3 - Setup flyway">
+      <created>1682040269096</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1682040269096</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +339,8 @@
     <MESSAGE value="Aula 3 - Order DTO + Validations" />
     <MESSAGE value="Aula 3 - Order Location" />
     <MESSAGE value="Aula 3 - Order Service + Application" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula 3 - Order Service + Application" />
+    <MESSAGE value="Aula 3 - Setup flyway" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula 3 - Setup flyway" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
