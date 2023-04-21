@@ -12,7 +12,7 @@ import java.sql.Date;
 import java.sql.Timestamp;
 
 @Component
-public class OrderApplicationImpl implements OrderApplication {
+public class OrderApplicationImpl implements OrderApplication{
 
     private final OrderService orderService;
 
@@ -21,7 +21,7 @@ public class OrderApplicationImpl implements OrderApplication {
         this.orderService = orderService;
     }
     @Override
-    public void createOrder(OrderDto orderDto) {
+    public void createOrder(OrderDto orderDto) throws Exception {
         Order order = new Order();
         order.setOperatorId(orderDto.getOperatorId());
         order.setStartOrderLocation(new OrderLocation(null,orderDto.getStart().getLatitude(), orderDto.getStart().getLongitude(),new Timestamp(orderDto.getStart().getDate().getTime())));
