@@ -14,7 +14,7 @@ import java.util.List;
 
 @SpringBootTest
 
-public class AsisstanceServiceTest {
+class AsisstanceServiceTest {
 
     private AssistanceService assistanceService;
     @MockBean
@@ -25,10 +25,18 @@ public class AsisstanceServiceTest {
         assistanceService = new AssistanceServiceImpl(assistanceRepository);
     }
     @Test
-    public void test_list_assistance() {
+    void test_list_assistance() {
         Mockito.when(assistanceRepository.findAll()).thenReturn(List.of(new Assistance(1L, "Test", "Test Description")));
         List<Assistance> list = assistanceService.getAssists();
         Assertions.assertNotNull(list);
         Assertions.assertEquals(1, list.size());
     }
+
+    // create test for getAssists
+    @Test
+    void test_get_assist(){
+
+    }
+
+
 }

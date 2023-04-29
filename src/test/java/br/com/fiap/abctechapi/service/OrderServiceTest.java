@@ -32,23 +32,31 @@ public class OrderServiceTest {
         Mockito.when(assistanceRepository.findById(Mockito.any())).thenReturn(Optional.of(new Assistance(1L, "Teste", "Teste Description")));
     }
 
-    // Minimo assistencias >0
+    // test for _saveOrder_ when a list is empty
     @Test
-    public void create_order_error_min_assist(){
+    public void save_order_empty_list() {
         Order newOrder = new Order();
         newOrder.setOperatorId(1234L);
         Assertions.assertThrows(MinimumAssistRequiredException.class, () -> orderService.saveOrder(newOrder, List.of()));
         Mockito.verify(orderRepository, Mockito.times(0)).save(newOrder);
     }
-    // maximo assistencia <= 15
+    // test for saveOrder when a list has more than 15 elements
     @Test
-    public void create_order_error_max_assist(){
+    public void save_order_over_15_items(){
         Order newOrder = new Order();
         newOrder.setOperatorId(1234L);
-        Assertions.assertThrows(MaximumAssistException.class, () -> orderService.saveOrder(newOrder, List.of(1L,2L,3L,4L,5L,6L,7L,8L,9L,10L,11L,12L,13L,14L,15L,16L)));
+        Assertions.assertThrows(MaximumAssistException.class, () -> orderService.saveOrder(newOrder, List.of(1L,2L,3L,4L,5L,6L,7L,8L,9L,10L,
+                11L,12L,13L,14L,15L,16L)));
         Mockito.verify(orderRepository, Mockito.times(0)).save(newOrder);
     }
-    // cenario criando a order
-    // TODO: Para a entrega
+    // test for saveOrder on happy path
+    @Test
+    public void save_order_happy_path(){
+        Order newOrder = new Order();
+        newOrder.setOperatorId(1234L);
+        Assertions.assertDoesNotThrow(() -> orderService.saveOrder(newOrder, List.of(1L,2L,3L,4L,5L,6L,7L,8L,9L,10L,
+                11L,12L,13L,14L,15L)));
+        Mockito.verify(orderRepository, Mockito.times(1)).save(newOrder);
+    }
 
 }

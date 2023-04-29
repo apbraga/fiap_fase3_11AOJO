@@ -9,14 +9,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3eb4ed3-cc95-49d5-8f6a-db0d35b64df9" name="Changes" comment="Aula 3 - Setup flyway">
+    <list default="true" id="e3eb4ed3-cc95-49d5-8f6a-db0d35b64df9" name="Changes" comment="Aula 3 - Disable flyway test">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/fiap/abctechapi/service/AsisstanceServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/fiap/abctechapi/service/AsisstanceServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/fiap/abctechapi/service/OrderServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/fiap/abctechapi/service/OrderServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/htmlReport" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -61,34 +72,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/apb/Library/Mobile Documents/com~apple~CloudDocs/Cursos/FIAP - MBA ESW/03 - Fase 03/Solution Sprint/abctechapi&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;c06792dcb43ead2205eaef90c8fadc49&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/apb/Library/Mobile Documents/com~apple~CloudDocs/Cursos/FIAP - MBA ESW/03 - Fase 03/Solution Sprint/abctechapi",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "show.migrate.to.gradle.popup": "false",
+    "spring.configuration.checksum": "c06792dcb43ead2205eaef90c8fadc49",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.com.fiap.abctechapi.entity" />
@@ -98,7 +111,22 @@
       <recent name="br.com.fiap.abctechapi.handler.exception" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AbctechapiApplication">
+  <component name="RunManager" selected="JUnit.AbctechapiApplicationTests">
+    <configuration name="AbctechapiApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="abctechapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.fiap.abctechapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.fiap.abctechapi" />
+      <option name="MAIN_CLASS_NAME" value="br.com.fiap.abctechapi.AbctechapiApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in abctechapi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="abctechapi" />
       <option name="PACKAGE_NAME" value="" />
@@ -178,6 +206,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.AbctechapiApplicationTests" />
       <item itemvalue="JUnit.OrderServiceTest" />
       <item itemvalue="JUnit.OrderServiceTest.create_order_error_max_assist" />
       <item itemvalue="JUnit.AsisstanceServiceTest" />
@@ -186,9 +215,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AbctechapiApplicationTests" />
+        <item itemvalue="JUnit.AsisstanceServiceTest" />
         <item itemvalue="JUnit.OrderServiceTest" />
         <item itemvalue="JUnit.OrderServiceTest.create_order_error_max_assist" />
-        <item itemvalue="JUnit.AsisstanceServiceTest" />
         <item itemvalue="JUnit.All in abctechapi" />
       </list>
     </recent_temporary>
@@ -209,7 +239,8 @@
       <workItem from="1680803653316" duration="12136000" />
       <workItem from="1681785318978" duration="3274000" />
       <workItem from="1681907380936" duration="5274000" />
-      <workItem from="1681949588217" duration="13786000" />
+      <workItem from="1681949588217" duration="14438000" />
+      <workItem from="1682773894899" duration="2539000" />
     </task>
     <task id="LOCAL-00001" summary="Aula 1 - Inicialização do Projeto">
       <created>1679797322526</created>
@@ -309,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682040269096</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Aula 3 - Disable flyway test">
+      <created>1682041305522</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682041305522</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,16 +378,24 @@
     <MESSAGE value="Aula 3 - Order Location" />
     <MESSAGE value="Aula 3 - Order Service + Application" />
     <MESSAGE value="Aula 3 - Setup flyway" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula 3 - Setup flyway" />
+    <MESSAGE value="Aula 3 - Disable flyway test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula 3 - Disable flyway test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/abctechapi$All_in_abctechapi.ic" NAME="All in abctechapi Coverage Results" MODIFIED="1679803474546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/abctechapi$OrderServiceTest.ic" NAME="OrderServiceTest Coverage Results" MODIFIED="1682037875583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/abctechapi$AbctechapiApplication.ic" NAME="AbctechapiApplication Coverage Results" MODIFIED="1682775755718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/abctechapi$AsisstanceServiceTest.ic" NAME="AsisstanceServiceTest Coverage Results" MODIFIED="1682776087950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>br.com.fiap.abctechapi.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/abctechapi$All_in_abctechapi.ic" NAME="All in abctechapi Coverage Results" MODIFIED="1679803474546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/abctechapi$OrderServiceTest.ic" NAME="OrderServiceTest Coverage Results" MODIFIED="1682776057239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>br.com.fiap.abctechapi.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/abctechapi$AbctechapiApplicationTests.ic" NAME="AbctechapiApplicationTests Coverage Results" MODIFIED="1682776269658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>br.com.fiap.abctechapi.*</FILTER>
     </SUITE>
   </component>
 </project>
