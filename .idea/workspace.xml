@@ -8,14 +8,58 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BeansView">
+    <option name="showFromTests" value="true" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3eb4ed3-cc95-49d5-8f6a-db0d35b64df9" name="Changes" comment="Aula 3 - Disable flyway test">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="e3eb4ed3-cc95-49d5-8f6a-db0d35b64df9" name="Changes" comment="Aula 3 - adding unit testing">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02f267ba83690ef6f27e7d42ce0f169d1bb30b45" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/18966045333829ec721e3ee5c313292c93a352e5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/236eb30b63e7724526627a12302595bb0667e20f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f180964cbfcf20d6f4f674f34117323ae1f9d13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/7460f3a00ea475d32ac9094a52936cc873aca66c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/81e66d2c5b204846e60141feaefea4aada772a13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83ccd13cf7faa0cad7ca05286f222f195301c655" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa398125ab41459038618c7f6c5e81949d4c45b0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6c8f99e46216dd4598da06c1d3dfe81498bb41e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bba28e554731a01bb764d13bad887d6626c22ea8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf6b6c35d87fe762dd24d013755480364b4b4a41" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d0944fadb01fc26b0503abe049944d4e20d8d1a0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/2/02f267ba83690ef6f27e7d42ce0f169d1bb30b45" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/8/18966045333829ec721e3ee5c313292c93a352e5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/3/236eb30b63e7724526627a12302595bb0667e20f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/f/6f180964cbfcf20d6f4f674f34117323ae1f9d13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/4/7460f3a00ea475d32ac9094a52936cc873aca66c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/1/81e66d2c5b204846e60141feaefea4aada772a13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/3/83ccd13cf7faa0cad7ca05286f222f195301c655" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/a/aa398125ab41459038618c7f6c5e81949d4c45b0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/6/b6c8f99e46216dd4598da06c1d3dfe81498bb41e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/b/bba28e554731a01bb764d13bad887d6626c22ea8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/f/bf6b6c35d87fe762dd24d013755480364b4b4a41" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/0/d0944fadb01fc26b0503abe049944d4e20d8d1a0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/fiap/abctechapi/application/AssistanceApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/fiap/abctechapi/application/OrderApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/application/dto/OrderLocationDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/application/dto/OrderLocationDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/application/impl/OrderApplicationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/application/impl/OrderApplicationImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/controller/HealthCheckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/controller/HealthCheckController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/entity/OrderLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/abctechapi/entity/OrderLocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1__assists.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__assists.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V2__orders.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2__orders.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/fiap/abctechapi/service/AsisstanceServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/fiap/abctechapi/service/AsisstanceServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/fiap/abctechapi/service/OrderServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/fiap/abctechapi/service/OrderServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/fiap/abctechapi/controller/HealthCheckController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/fiap/abctechapi/controller/HealthCheckController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +67,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageOptionsProvider">
-    <option name="myAddOrReplace" value="0" />
+    <option name="myAddOrReplace" value="1" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -52,6 +96,10 @@
         <option name="url" value="https://github.com/apbraga/fiap_fase3_11AOJO.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="JavaeeView">
+    <option name="frameworksView" value="false" />
+    <option name="showModules" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -82,6 +130,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
@@ -91,7 +140,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "preferences.general",
     "show.migrate.to.gradle.popup": "false",
     "spring.configuration.checksum": "c06792dcb43ead2205eaef90c8fadc49",
     "vue.rearranger.settings.migration": "true"
@@ -107,22 +156,39 @@
       <recent name="br.com.fiap.abctechapi.entity" />
       <recent name="br.com.fiap.abctechapi.application.dto" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.fiap.abctechapi" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.fiap.abctechapi.handler.exception" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AbctechapiApplicationTests">
-    <configuration name="AbctechapiApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AbctechapiApplication">
+    <configuration name="All in abctechapi (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="abctechapi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.fiap.abctechapi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.fiap.abctechapi" />
-      <option name="MAIN_CLASS_NAME" value="br.com.fiap.abctechapi.AbctechapiApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in abctechapi (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="abctechapi" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in abctechapi (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="abctechapi" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,48 +201,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AsisstanceServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="java in abctechapi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="abctechapi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.fiap.abctechapi.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.fiap.abctechapi.service" />
-      <option name="MAIN_CLASS_NAME" value="br.com.fiap.abctechapi.service.AsisstanceServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="abctechapi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.fiap.abctechapi.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.fiap.abctechapi.service" />
-      <option name="MAIN_CLASS_NAME" value="br.com.fiap.abctechapi.service.OrderServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderServiceTest.create_order_error_max_assist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="abctechapi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.fiap.abctechapi.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.fiap.abctechapi.service" />
-      <option name="MAIN_CLASS_NAME" value="br.com.fiap.abctechapi.service.OrderServiceTest" />
-      <option name="METHOD_NAME" value="create_order_error_max_assist" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -206,20 +234,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.AbctechapiApplicationTests" />
-      <item itemvalue="JUnit.OrderServiceTest" />
-      <item itemvalue="JUnit.OrderServiceTest.create_order_error_max_assist" />
-      <item itemvalue="JUnit.AsisstanceServiceTest" />
+      <item itemvalue="JUnit.java in abctechapi" />
+      <item itemvalue="JUnit.All in abctechapi (3)" />
+      <item itemvalue="JUnit.All in abctechapi (1)" />
+      <item itemvalue="JUnit.All in abctechapi (2)" />
       <item itemvalue="JUnit.All in abctechapi" />
       <item itemvalue="Spring Boot.AbctechapiApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AbctechapiApplicationTests" />
-        <item itemvalue="JUnit.AsisstanceServiceTest" />
-        <item itemvalue="JUnit.OrderServiceTest" />
-        <item itemvalue="JUnit.OrderServiceTest.create_order_error_max_assist" />
+        <item itemvalue="JUnit.java in abctechapi" />
         <item itemvalue="JUnit.All in abctechapi" />
+        <item itemvalue="JUnit.All in abctechapi (3)" />
+        <item itemvalue="JUnit.All in abctechapi (2)" />
+        <item itemvalue="JUnit.All in abctechapi (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +268,13 @@
       <workItem from="1681785318978" duration="3274000" />
       <workItem from="1681907380936" duration="5274000" />
       <workItem from="1681949588217" duration="14438000" />
-      <workItem from="1682773894899" duration="2539000" />
+      <workItem from="1682773894899" duration="5091000" />
+      <workItem from="1682787837014" duration="910000" />
+      <workItem from="1683231226468" duration="11000" />
+      <workItem from="1683232035655" duration="18000" />
+      <workItem from="1684630356209" duration="2969000" />
+      <workItem from="1684635203389" duration="1526000" />
+      <workItem from="1684689556547" duration="4005000" />
     </task>
     <task id="LOCAL-00001" summary="Aula 1 - Inicialização do Projeto">
       <created>1679797322526</created>
@@ -347,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682041305522</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Aula 3 - adding unit testing">
+      <created>1682776633377</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1682776633377</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +420,8 @@
     <MESSAGE value="Aula 3 - Order Service + Application" />
     <MESSAGE value="Aula 3 - Setup flyway" />
     <MESSAGE value="Aula 3 - Disable flyway test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula 3 - Disable flyway test" />
+    <MESSAGE value="Aula 3 - adding unit testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula 3 - adding unit testing" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
@@ -390,12 +432,15 @@
     <SUITE FILE_PATH="coverage/abctechapi$AsisstanceServiceTest.ic" NAME="AsisstanceServiceTest Coverage Results" MODIFIED="1682776087950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>br.com.fiap.abctechapi.service.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/abctechapi$All_in_abctechapi.ic" NAME="All in abctechapi Coverage Results" MODIFIED="1679803474546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/abctechapi$OrderServiceTest.ic" NAME="OrderServiceTest Coverage Results" MODIFIED="1682776057239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/abctechapi$All_in_abctechapi.ic" NAME="All in abctechapi Coverage Results" MODIFIED="1682777916595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/abctechapi$All_in_abctechapi__2_.ic" NAME="All in abctechapi (2) Coverage Results" MODIFIED="1682778073122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/abctechapi$All_in_abctechapi__3_.ic" NAME="All in abctechapi (3) Coverage Results" MODIFIED="1682788354805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/abctechapi$OrderServiceTest.ic" NAME="OrderServiceTest Coverage Results" MODIFIED="1682777003808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>br.com.fiap.abctechapi.service.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/abctechapi$AbctechapiApplicationTests.ic" NAME="AbctechapiApplicationTests Coverage Results" MODIFIED="1682776269658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/abctechapi$AbctechapiApplicationTests.ic" NAME="AbctechapiApplicationTests Coverage Results" MODIFIED="1682776583198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>br.com.fiap.abctechapi.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/abctechapi$java_in_abctechapi.ic" NAME="java in abctechapi Coverage Results" MODIFIED="1684634740350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Optional;
 
 @SpringBootTest
-public class OrderServiceTest {
+class OrderServiceTest {
     @MockBean
     private AssistanceRepository assistanceRepository;
     @MockBean
@@ -34,7 +34,7 @@ public class OrderServiceTest {
 
     // test for _saveOrder_ when a list is empty
     @Test
-    public void save_order_empty_list() {
+    void test_save_order_empty_list() {
         Order newOrder = new Order();
         newOrder.setOperatorId(1234L);
         Assertions.assertThrows(MinimumAssistRequiredException.class, () -> orderService.saveOrder(newOrder, List.of()));
@@ -42,7 +42,7 @@ public class OrderServiceTest {
     }
     // test for saveOrder when a list has more than 15 elements
     @Test
-    public void save_order_over_15_items(){
+    void test_save_order_over_15_items(){
         Order newOrder = new Order();
         newOrder.setOperatorId(1234L);
         Assertions.assertThrows(MaximumAssistException.class, () -> orderService.saveOrder(newOrder, List.of(1L,2L,3L,4L,5L,6L,7L,8L,9L,10L,
@@ -51,7 +51,7 @@ public class OrderServiceTest {
     }
     // test for saveOrder on happy path
     @Test
-    public void save_order_happy_path(){
+    void test_save_order_happy_path(){
         Order newOrder = new Order();
         newOrder.setOperatorId(1234L);
         Assertions.assertDoesNotThrow(() -> orderService.saveOrder(newOrder, List.of(1L,2L,3L,4L,5L,6L,7L,8L,9L,10L,

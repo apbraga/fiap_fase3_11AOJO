@@ -32,11 +32,4 @@ class AsisstanceServiceTest {
         Assertions.assertEquals(1, list.size());
     }
 
-    // create test for getAssists
-    @Test
-    void test_get_assist(){
-
-    }
-
-
 }

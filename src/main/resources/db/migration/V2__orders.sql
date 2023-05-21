@@ -21,7 +21,7 @@ CREATE TABLE `orders_assistances` (
                                       `assistances_id` bigint NOT NULL,
                                       KEY `FK_assists_id` (`assistances_id`),
                                       KEY `FK_order_id` (`order_id`),
-                                      CONSTRAINT `FK_assists_id` FOREIGN KEY (`assistances_id`) REFERENCES `assistances` (`id`),
+                                      CONSTRAINT `FK_assists_id` FOREIGN KEY (`assistances_id`) REFERENCES `assistance` (`id`),
                                       CONSTRAINT `FK_order_id` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
