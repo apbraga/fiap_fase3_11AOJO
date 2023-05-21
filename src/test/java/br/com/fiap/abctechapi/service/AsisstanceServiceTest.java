@@ -32,4 +32,10 @@ class AsisstanceServiceTest {
         Assertions.assertEquals(1, list.size());
     }
 
+    @Test
+    void list_empty() {
+        Mockito.when(assistanceRepository.findAll()).thenReturn(List.of());
+        List<Assistance> values = assistanceService.getAssists();
+        Assertions.assertEquals(0, values.size());
+    }
 }
