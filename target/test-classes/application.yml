@@ -1,0 +1,16 @@
+build:
+  name: abctechapi
+  version: 0.2
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:abc_tech;DB_CLOSE_DELAY=-1;
+    username: sa
+    password: sa
+  flyway:
+    enabled: false
+

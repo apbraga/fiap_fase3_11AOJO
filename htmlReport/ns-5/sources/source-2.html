@@ -1,0 +1,145 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Order</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">br.com.fiap.abctechapi.entity</a>
+</div>
+
+<h1>Coverage Summary for Class: Order (br.com.fiap.abctechapi.entity)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Order</td>
+<td class="coverageStat">
+  <span class="percent">
+    12.5%
+  </span>
+  <span class="absValue">
+    (1/8)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    12.5%
+  </span>
+  <span class="absValue">
+    (1/8)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">Order$HibernateProxy$vctg8Av5</td>
+  </tr>
+<tr>
+  <td class="name"><strong>Total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    12.5%
+  </span>
+  <span class="absValue">
+    (1/8)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    12.5%
+  </span>
+  <span class="absValue">
+    (1/8)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package br.com.fiap.abctechapi.entity;
+&nbsp;
+&nbsp;
+&nbsp;import lombok.AllArgsConstructor;
+&nbsp;import lombok.Data;
+&nbsp;import lombok.NoArgsConstructor;
+&nbsp;
+&nbsp;import javax.persistence.*;
+&nbsp;import java.util.List;
+&nbsp;
+&nbsp;@Entity
+&nbsp;@Data
+&nbsp;@AllArgsConstructor
+<b class="nc">&nbsp;@NoArgsConstructor</b>
+<b class="nc">&nbsp;@Table(name = &quot;orders&quot;)</b>
+<b class="fc">&nbsp;public class Order {</b>
+&nbsp;    @Id
+&nbsp;    @GeneratedValue(strategy = GenerationType.IDENTITY)
+&nbsp;    private Long id;
+&nbsp;    @Column(name = &quot;operator_id&quot;, nullable = false)
+<b class="nc">&nbsp;    private Long operatorId;</b>
+&nbsp;
+<b class="nc">&nbsp;    @ManyToMany</b>
+&nbsp;    private List&lt;Assistance&gt; assistances;
+&nbsp;    @OneToOne(cascade = CascadeType.PERSIST)
+<b class="nc">&nbsp;    @JoinColumn(name = &quot;start_order_location_id&quot;,foreignKey = @ForeignKey(name = &quot;FK_start_order_id&quot;))</b>
+&nbsp;    private OrderLocation startOrderLocation;
+&nbsp;    @OneToOne(cascade = CascadeType.PERSIST)
+<b class="nc">&nbsp;    @JoinColumn(name = &quot;end_order_location_id&quot;,foreignKey = @ForeignKey(name = &quot;FK_end_order_id&quot;))</b>
+&nbsp;    private OrderLocation endOrderLocation;
+&nbsp;
+<b class="nc">&nbsp;}</b>
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-04-29 11:02</div>
+</div>
+</body>
+</html>
